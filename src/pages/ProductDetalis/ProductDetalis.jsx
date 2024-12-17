@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { CartContext } from "../../context/cartContext";
 import ReactImageGallery from "react-image-gallery";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "Swiper/css"
+import "swiper/css"
 import ProductCard from "../../components/productCard/productCard";
 import useOnline from "../../hooks/useOnline";
 import { Helmet } from "react-helmet";
